@@ -1,235 +1,329 @@
 <!doctype html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>HappyFEET • Podologia | Jaraguá do Sul</title>
-  <meta name="description" content="Precisão clínica com conforto e elegância. Unha encravada, podoprofilaxia, verruga plantar e laserterapia — em ambiente acolhedor, moderno e seguro."/>
+  <title>HappyFEET Podologia Clínica | Jaraguá do Sul</title>
+  <meta name="description" content="Clínica de podologia em Jaraguá do Sul/SC. Unha encravada, podoprofilaxia, verruga plantar, laserterapia para micose de unha, atendimento infantil e para idosos. Agende pelo WhatsApp."/>
+  <link rel="canonical" href="https://happyfeet-podologia.netlify.app/"/>
+  <meta name="theme-color" content="#173f97"/>
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+
+  <meta property="og:type" content="website"/>
+  <meta property="og:locale" content="pt_BR"/>
+  <meta property="og:site_name" content="HappyFEET Podologia Clínica"/>
+  <meta property="og:title" content="HappyFEET Podologia Clínica | Jaraguá do Sul"/>
+  <meta property="og:description" content="Cuidado clínico para os seus pés, em todas as idades. Agende sua avaliação pelo WhatsApp."/>
+  <meta property="og:url" content="https://happyfeet-podologia.netlify.app/"/>
+  <meta property="og:image" content="https://happyfeet-podologia.netlify.app/assets/og-image.jpg"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet"/>
   <link href="styles.css" rel="stylesheet"/>
-  <link href="local.css" rel="stylesheet"/>
+
+  <!-- Google Ads / GA4: cole aqui a tag do Google (gtag.js) quando houver o ID (AW-... ou G-...).
+       Os cliques no WhatsApp já disparam o evento "contato_whatsapp" automaticamente (script no final). -->
 </head>
 <body>
 
 <header class="header">
-  <div class="container row">
-    <a class="brand" href="#top" aria-label="HappyFEET Home">
-      <img src="assets/logo-happyfeet.jpg" alt="Logo HappyFEET"/>
-      <span>HappyFEET • Podologia</span>
+  <div class="container header-row">
+    <a class="brand" href="#top" aria-label="HappyFEET, início">
+      <img src="assets/logo-happyfeet.webp" alt="" width="40" height="40"/>
+      <span>Happy<strong>FEET</strong></span>
     </a>
-    <a class="btn primary" href="https://wa.me/5547988604551?text=Olá%2C%20gostaria%20de%20agendar%20uma%20avaliação%20na%20HappyFEET." target="_blank" rel="noopener">WhatsApp</a>
+    <nav class="nav" aria-label="Menu principal">
+      <a href="#servicos">Serviços</a>
+      <a href="#sobre">Quem atende</a>
+      <a href="#parceiros">Parceiros</a>
+      <a href="#duvidas">Dúvidas</a>
+      <a href="#local">Onde estamos</a>
+    </nav>
+    <a class="btn btn-wa btn-sm" href="https://wa.me/5547988604551?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20na%20HappyFEET." target="_blank" rel="noopener" data-origem="cabecalho">Agendar</a>
   </div>
 </header>
 
-<section class="hero" id="top">
-  <div class="container grid-hero">
-    <div>
-      <p class="lead">Cuidado clínico para todas as idades</p>
-      <h1>Precisão clínica com conforto<br/>e elegância</h1>
-      <p class="lead">Unha encravada, podoprofilaxia, verruga plantar e laserterapia — em ambiente acolhedor, moderno e seguro.</p>
-      <div class="cta">
-        <a class="btn secondary" href="#servicos">Ver serviços</a>
-        <a class="btn primary" href="https://wa.me/5547988604551" target="_blank" rel="noopener">Agendar avaliação</a>
+<main id="top">
+
+  <!-- ABERTURA -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <p class="eyebrow">Podologia clínica em Jaraguá do Sul</p>
+        <h1>Cuidado clínico para os seus pés, com conforto e segurança</h1>
+        <p class="hero-lead">Unha encravada, podoprofilaxia, verruga plantar e laserterapia para micose de unha. Atendimento para todas as idades, em ambiente acolhedor e higienizado.</p>
+        <div class="hero-cta">
+          <a class="btn btn-wa" href="https://wa.me/5547988604551?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20na%20HappyFEET." target="_blank" rel="noopener" data-origem="abertura">Agendar pelo WhatsApp</a>
+          <a class="btn btn-ghost" href="#servicos">Ver serviços</a>
+        </div>
+        <p class="hero-phone">Prefere ligar? <a href="tel:+5547988604551">(47) 98860-4551</a></p>
       </div>
+      <figure class="hero-photo">
+        <img src="assets/tatiana-hero.webp" alt="Tatiana Winheski Martínez no consultório da HappyFEET" width="900" height="1088" fetchpriority="high"/>
+        <figcaption><strong>Tatiana Winheski Martínez</strong><span>HappyFEET Podologia Clínica</span></figcaption>
+      </figure>
     </div>
-    <div class="hero-card">
-      <img src="assets/hero-consultorio.svg" alt="Foto do consultório (Hero)"/>
-    </div>
-  </div>
-</section>
+  </section>
 
-<section class="section" id="servicos">
-  <div class="container">
-    <h2>Serviços</h2>
-    <div class="cards">
-
-      <article class="card">
-        <div class="thumb" style="position:relative;aspect-ratio:auto;background:#eef4ff">
-          <div style="width:100%;padding-top:62.5%"></div>
-          <img src="assets/Podoprofilaxia.png" alt="Podoprofilaxia" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain">
-          <span class="badge">Podoprofilaxia</span>
-        </div>
-        <div class="body">
-          <h3>Podoprofilaxia</h3>
-          <p>Limpeza clínica, corte técnico e orientação preventiva.</p>
-        </div>
-      </article>
-
-      <article class="card">
-        <div class="thumb" style="position:relative;aspect-ratio:auto;background:#eef4ff">
-          <div style="width:100%;padding-top:62.5%"></div>
-          <img src="assets/Unha Encravada (Onicocriptose).png" alt="Unha Encravada (Onicocriptose)" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain">
-          <span class="badge">Unha Encravada</span>
-        </div>
-        <div class="body">
-          <h3>Onicocriptose</h3>
-          <p>Correção técnica, assepsia rigorosa e alívio seguro.</p>
-        </div>
-      </article>
-
-      <article class="card">
-        <div class="thumb" style="position:relative;aspect-ratio:auto;background:#eef4ff">
-          <div style="width:100%;padding-top:62.5%"></div>
-          <img src="assets/Verruga Plantar.png" alt="Verruga Plantar" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain">
-          <span class="badge">Verruga Plantar</span>
-        </div>
-        <div class="body">
-          <h3>Verruga Plantar</h3>
-          <p>Procedimentos específicos e cuidados pós-tratamento.</p>
-        </div>
-      </article>
-
-      <article class="card">
-        <div class="thumb" style="position:relative;aspect-ratio:auto;background:#eef4ff">
-          <div style="width:100%;padding-top:62.5%"></div>
-          <img src="assets/Laserterapia (Onicomicose).png" alt="Laserterapia (Onicomicose)" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain">
-          <span class="badge">Laserterapia</span>
-        </div>
-        <div class="body">
-          <h3>Onicomicose</h3>
-          <p>Tecnologia moderna e protocolo por fases.</p>
-        </div>
-      </article>
-
-      <article class="card">
-        <div class="thumb" style="position:relative;aspect-ratio:auto;background:#eef4ff">
-          <div style="width:100%;padding-top:62.5%"></div>
-          <img src="assets/Pediatria.png" alt="Atendimento Infantil/Pediátrico" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain">
-          <span class="badge">Atendimento Infantil</span>
-        </div>
-        <div class="body">
-          <h3>Infantil/Pediátrico</h3>
-          <p>Abordagem lúdica e segura.</p>
-        </div>
-      </article>
-
-      <article class="card">
-        <div class="thumb" style="position:relative;aspect-ratio:auto;background:#eef4ff">
-          <div style="width:100%;padding-top:62.5%"></div>
-          <img src="assets/Cuidados para Idosos.png" alt="Cuidados para Idosos" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain">
-          <span class="badge">Cuidados para Idosos</span>
-        </div>
-        <div class="body">
-          <h3>Rotinas de Conforto</h3>
-          <p>Atenção às particularidades de pele e sensibilidade.</p>
-        </div>
-      </article>
-
-    </div>
-  </div>
-</section>
-
-<section class="section alt space" id="espaco">
-  <div class="container">
-    <h2>Nosso espaço</h2>
-    <p>Ambiente acolhedor, moderno e higienizado.</p>
-    <div class="cards">
-
-      <article class="card">
-        <div class="thumb" style="position:relative;aspect-ratio:auto;background:#eef4ff">
-          <div style="width:100%;padding-top:62.5%"></div>
-          <img src="assets/Foto do espaço 1.png" alt="Foto do espaço 1" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain">
-        </div>
-      </article>
-
-      <article class="card">
-        <div class="thumb" style="position:relative;aspect-ratio:auto;background:#eef4ff">
-          <div style="width:100%;padding-top:62.5%"></div>
-          <img src="assets/tatiana-winheski-martinez.jpg" alt="Sra. Tatiana Winheski Martínez — Proprietária da HappyFEET" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain">
-        </div>
-      </article>
-
-      <article class="card">
-        <div class="thumb" style="position:relative;aspect-ratio:auto;background:#eef4ff">
-          <div style="width:100%;padding-top:62.5%"></div>
-          <img src="assets/hero-consultorio.svg" alt="Foto do espaço 3" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain">
-        </div>
-      </article>
-
-    </div>
-  </div>
-</section>
-
-<section class="about" id="sobre">
-  <div class="container">
-    <h2>Sobre a HappyFEET</h2>
-    <p>Unimos técnica, conforto e transparência para cuidar da saúde dos seus pés. Atuamos com protocolos atualizados e orientação clara, para todas as idades.</p>
-    <ul>
-      <li>Atendimento humanizado e privativo</li>
-      <li>Higiene rigorosa e biossegurança</li>
-      <li>Tecnologia a favor do cuidado (laserterapia)</li>
+  <!-- FAIXA DE CONFIANÇA -->
+  <section class="trust" aria-label="Diferenciais">
+    <ul class="container trust-list">
+      <li><strong>Todas as idades</strong><span>Crianças, adultos e idosos</span></li>
+      <li><strong>Biossegurança</strong><span>Higiene rigorosa em cada atendimento</span></li>
+      <li><strong>Laserterapia</strong><span>Tecnologia a favor do tratamento</span></li>
+      <li><strong>Atendimento privativo</strong><span>Com hora marcada</span></li>
     </ul>
-  </div>
-</section>
+  </section>
 
-<section class="contact" id="contato">
-  <div class="container contact-row">
-    <div>
-      <h2>Fale com a HappyFEET</h2>
-      <p>Tire dúvidas e agende sua avaliação pelo WhatsApp.</p>
-    </div>
-    <a class="btn secondary" href="https://wa.me/5547988604551" target="_blank" rel="noopener">WhatsApp</a>
-  </div>
-</section>
+  <!-- SERVIÇOS -->
+  <section class="section" id="servicos">
+    <div class="container">
+      <header class="section-head">
+        <p class="eyebrow">Serviços</p>
+        <h2>Como podemos ajudar</h2>
+        <p>Cada atendimento começa com uma avaliação. A partir dela, explicamos o procedimento indicado e os cuidados em casa.</p>
+      </header>
 
-<section class="section" id="local">
-  <div class="container">
-    <h2>Onde estamos</h2>
-    <div class="local-grid">
-      <div class="map-wrap">
-        <iframe
-          src="https://www.google.com/maps?q=R.+25+de+Julho%2C+786+-+Vila+Nova%2C+Jaragu%C3%A1+do+Sul+-+SC%2C+89259-000&output=embed"
-          style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
+      <div class="services">
+        <article class="service">
+          <div class="service-img"><img src="assets/unha-encravada.webp" alt="Registro de tratamento de unha encravada" width="415" height="900" loading="lazy"/></div>
+          <div class="service-body">
+            <h3>Unha encravada</h3>
+            <p class="term">Onicocriptose</p>
+            <p>Correção técnica da unha que machuca a pele, com assepsia rigorosa e foco no alívio da dor.</p>
+            <a class="link-wa" href="https://wa.me/5547988604551?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20para%20unha%20encravada." target="_blank" rel="noopener" data-origem="servico-unha-encravada">Agendar avaliação</a>
+          </div>
+        </article>
+
+        <article class="service">
+          <div class="service-img"><img src="assets/podoprofilaxia.webp" alt="Registro de podoprofilaxia" width="675" height="900" loading="lazy"/></div>
+          <div class="service-body">
+            <h3>Podoprofilaxia</h3>
+            <p class="term">Limpeza e cuidado preventivo dos pés</p>
+            <p>Limpeza clínica, corte técnico das unhas e orientação preventiva.</p>
+            <a class="link-wa" href="https://wa.me/5547988604551?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20podoprofilaxia." target="_blank" rel="noopener" data-origem="servico-podoprofilaxia">Agendar avaliação</a>
+          </div>
+        </article>
+
+        <article class="service">
+          <div class="service-img"><img src="assets/laserterapia-onicomicose.webp" alt="Registro de tratamento de micose de unha" width="675" height="900" loading="lazy"/></div>
+          <div class="service-body">
+            <h3>Micose de unha</h3>
+            <p class="term">Onicomicose, com laserterapia</p>
+            <p>Tratamento com tecnologia de laser e protocolo por fases, com acompanhamento da evolução.</p>
+            <a class="link-wa" href="https://wa.me/5547988604551?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20para%20micose%20de%20unha." target="_blank" rel="noopener" data-origem="servico-onicomicose">Agendar avaliação</a>
+          </div>
+        </article>
+
+        <article class="service">
+          <div class="service-img"><img src="assets/verruga-plantar.webp" alt="Registro de tratamento de verruga plantar" width="675" height="900" loading="lazy"/></div>
+          <div class="service-body">
+            <h3>Verruga plantar</h3>
+            <p class="term">Olho de peixe</p>
+            <p>Procedimentos específicos para a verruga na sola do pé e orientação de cuidados após o tratamento.</p>
+            <a class="link-wa" href="https://wa.me/5547988604551?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20para%20verruga%20plantar." target="_blank" rel="noopener" data-origem="servico-verruga-plantar">Agendar avaliação</a>
+          </div>
+        </article>
+
+        <article class="service">
+          <div class="service-img"><img src="assets/atendimento-infantil.webp" alt="Atendimento infantil na HappyFEET" width="675" height="900" loading="lazy"/></div>
+          <div class="service-body">
+            <h3>Atendimento infantil</h3>
+            <p class="term">Podologia pediátrica</p>
+            <p>Abordagem lúdica, paciente e segura, para que a criança se sinta tranquila durante o atendimento.</p>
+            <a class="link-wa" href="https://wa.me/5547988604551?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20atendimento%20infantil." target="_blank" rel="noopener" data-origem="servico-infantil">Agendar avaliação</a>
+          </div>
+        </article>
+
+        <article class="service">
+          <div class="service-img"><img src="assets/cuidados-idosos.webp" alt="Registro de cuidados para idosos" width="675" height="900" loading="lazy"/></div>
+          <div class="service-body">
+            <h3>Cuidados para idosos</h3>
+            <p class="term">Pele sensível e unhas espessas</p>
+            <p>Atenção às particularidades da pele e da sensibilidade, com atendimento cuidadoso e sem pressa.</p>
+            <a class="link-wa" href="https://wa.me/5547988604551?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20atendimento%20para%20idoso." target="_blank" rel="noopener" data-origem="servico-idosos">Agendar avaliação</a>
+          </div>
+        </article>
       </div>
-      <div class="local-info">
-        <h3>HappyFEET • Podologia Clínica</h3>
-        <p class="address">R. 25 de Julho, nº 786 — Vila Nova<br>Jaraguá do Sul/SC — CEP 89259-000</p>
-        <div class="hours">
-          <h4>Horário de atendimento</h4>
-          <table>
-            <tr><td>Seg — Sex</td><td>09:00 às 20:00</td></tr>
-            <tr><td>Sábado</td><td>08:00 às 12:00</td></tr>
-            <tr><td>Domingo</td><td>Fechado</td></tr>
+      <p class="note">Imagens de pacientes publicadas com autorização.</p>
+    </div>
+  </section>
+
+  <!-- COMO FUNCIONA -->
+  <section class="section section-soft" id="como-funciona">
+    <div class="container">
+      <header class="section-head">
+        <p class="eyebrow">Como funciona</p>
+        <h2>Do primeiro contato ao acompanhamento</h2>
+      </header>
+      <ol class="steps">
+        <li><span class="step-n">1</span><h3>Agendamento</h3><p>Você chama no WhatsApp e escolhe o melhor horário.</p></li>
+        <li><span class="step-n">2</span><h3>Avaliação</h3><p>Examinamos os pés e explicamos com clareza o que foi identificado.</p></li>
+        <li><span class="step-n">3</span><h3>Tratamento</h3><p>Realizamos o procedimento indicado, seguindo protocolos de biossegurança.</p></li>
+        <li><span class="step-n">4</span><h3>Acompanhamento</h3><p>Você recebe orientações de cuidado em casa e, quando necessário, o retorno é agendado.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- QUEM ATENDE / ESPAÇO -->
+  <section class="section" id="sobre">
+    <div class="container about-grid">
+      <div class="about-photos">
+        <img src="assets/tatiana-consultorio.webp" alt="Tatiana Winheski Martínez na recepção da HappyFEET" width="506" height="900" loading="lazy"/>
+        <img src="assets/espaco-laserterapia.webp" alt="Atendimento de laserterapia na HappyFEET" width="415" height="762" loading="lazy"/>
+      </div>
+      <div class="about-text">
+        <p class="eyebrow">Quem atende</p>
+        <h2>Tatiana Winheski Martínez</h2>
+        <!-- Incluir aqui formação, registro profissional e tempo de atuação quando informados. -->
+        <p>À frente da HappyFEET, Tatiana une técnica, conforto e transparência para cuidar da saúde dos seus pés. O atendimento segue protocolos atualizados e orientação clara, para todas as idades.</p>
+        <ul class="checks">
+          <li>Atendimento humanizado e privativo</li>
+          <li>Higiene rigorosa e biossegurança</li>
+          <li>Tecnologia a favor do cuidado, com laserterapia</li>
+          <li>Explicação clara de cada etapa do tratamento</li>
+        </ul>
+        <a class="btn btn-primary" href="https://wa.me/5547988604551?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20na%20HappyFEET." target="_blank" rel="noopener" data-origem="quem-atende">Agendar com a Tatiana</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARCEIROS -->
+  <section class="section section-soft" id="parceiros">
+    <div class="container partners-grid">
+      <div class="partners-text">
+        <p class="eyebrow">Parceiros</p>
+        <h2>Associados das empresas parceiras ganham 10% de desconto</h2>
+        <p>Se você é associado de uma das empresas parceiras da HappyFEET, tem 10% de desconto nos procedimentos.</p>
+        <p>Informe a parceria no momento do agendamento e consulte as condições pelo WhatsApp.</p>
+        <a class="btn btn-wa" href="https://wa.me/5547988604551?text=Ol%C3%A1%2C%20sou%20associado%20de%20uma%20empresa%20parceira%20e%20gostaria%20de%20agendar%20com%20o%20desconto." target="_blank" rel="noopener" data-origem="parceiros">Agendar com desconto</a>
+      </div>
+      <figure class="partners-img">
+        <img src="assets/parceiros.webp" alt="Associados ganham 10% de desconto em seus procedimentos. Parceiros: Live!, Plano Funeral Leier, Target Gym, Menegotti e outra empresa parceira." width="800" height="1065" loading="lazy"/>
+      </figure>
+    </div>
+  </section>
+
+  <!-- DÚVIDAS -->
+  <section class="section" id="duvidas">
+    <div class="container narrow">
+      <header class="section-head">
+        <p class="eyebrow">Dúvidas frequentes</p>
+        <h2>Perguntas mais comuns</h2>
+      </header>
+      <div class="faq">
+        <details>
+          <summary>Como faço para agendar?</summary>
+          <p>Pelo WhatsApp <a href="https://wa.me/5547988604551" target="_blank" rel="noopener" data-origem="duvidas">(47) 98860-4551</a>. O atendimento é feito com hora marcada.</p>
+        </details>
+        <details>
+          <summary>Quanto custa o atendimento?</summary>
+          <p>Os valores dependem do procedimento indicado na avaliação. Chame no WhatsApp para receber as informações.</p>
+        </details>
+        <details>
+          <summary>Preciso de encaminhamento médico?</summary>
+          <p>Não. Você pode agendar diretamente. Se a avaliação indicar a necessidade de acompanhamento médico, você será orientado.</p>
+        </details>
+        <details>
+          <summary>Vocês atendem crianças e idosos?</summary>
+          <p>Sim. Há atendimento infantil, com abordagem lúdica e segura, e cuidados específicos para idosos.</p>
+        </details>
+        <details>
+          <summary>Quantas sessões são necessárias?</summary>
+          <p>Depende do caso. Alguns procedimentos são resolvidos em um atendimento; outros, como o tratamento da micose de unha, seguem um protocolo por fases. Isso é explicado na avaliação.</p>
+        </details>
+        <details>
+          <summary>Sou associado de uma empresa parceira. Como uso o desconto?</summary>
+          <p>Informe a parceria ao agendar. Associados das empresas parceiras têm 10% de desconto nos procedimentos.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ONDE ESTAMOS -->
+  <section class="section section-soft" id="local">
+    <div class="container">
+      <header class="section-head">
+        <p class="eyebrow">Onde estamos</p>
+        <h2>Vila Nova, Jaraguá do Sul</h2>
+      </header>
+      <div class="local-grid">
+        <div class="map-wrap">
+          <iframe title="Mapa da HappyFEET"
+            src="https://www.google.com/maps?q=Cl%C3%ADnica+de+Podologia+HappyFEET,+R.+25+de+Julho,+261,+Vila+Nova,+Jaragu%C3%A1+do+Sul+-+SC&z=17&output=embed"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+        <div class="local-info">
+          <h3>HappyFEET Podologia Clínica</h3>
+          <p class="address">R. 25 de Julho, nº 261, Vila Nova<br/>Jaraguá do Sul/SC, CEP 89259-000</p>
+          <p class="phone">WhatsApp e telefone: <a href="tel:+5547988604551">(47) 98860-4551</a></p>
+          <table class="hours">
+            <caption>Horário de atendimento</caption>
+            <tr><th scope="row">Segunda a sexta</th><td>09h às 20h</td></tr>
+            <tr><th scope="row">Sábado</th><td>08h às 12h</td></tr>
+            <tr><th scope="row">Domingo</th><td>Fechado</td></tr>
           </table>
-        </div>
-        <div class="local-cta">
-          <a class="btn secondary" target="_blank" rel="noopener"
-             href="https://www.google.com/maps/dir//R.+25+de+Julho,+786+-+Vila+Nova,+Jaragu%C3%A1+do+Sul+-+SC,+89259-000/@-26.4995878,-49.1631813,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94de959ddb6ded03:0x39d77f689cc7b01d!2m2!1d-49.0807798!2d-26.4996115?hl=pt-BR&authuser=0&entry=ttu&g_ep=EgoyMDI1MDgwNi4wIKXMDSoASAFQAw%3D%3D">Como chegar</a>
-          <a class="btn primary" target="_blank" rel="noopener"
-             href="https://wa.me/5547988604551">WhatsApp</a>
-          <button class="btn" type="button"
-            onclick='navigator.clipboard.writeText("R. 25 de Julho, nº 786 — Vila Nova, Jaraguá do Sul/SC — CEP 89259-000")'>
-            Copiar endereço
-          </button>
-        </div>
-        <div class="local-badges">
-          <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=HappyFEET%20Podologia%20Cl%C3%ADnica%20Jaragu%C3%A1%20do%20Sul%20avalia%C3%A7%C3%B5es">
-            Ver avaliações no Google ⭐⭐⭐⭐⭐
-          </a>
+          <div class="local-cta">
+            <a class="btn btn-primary" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&amp;destination=-26.5003207,-49.0854501">Como chegar</a>
+            <a class="btn btn-wa" target="_blank" rel="noopener" href="https://wa.me/5547988604551?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20na%20HappyFEET." data-origem="onde-estamos">WhatsApp</a>
+            <button class="btn btn-light" type="button" id="copiar-endereco">Copiar endereço</button>
+          </div>
+          <a class="reviews" target="_blank" rel="noopener" href="https://www.google.com/maps/place/Cl%C3%ADnica+de+Podologia+HappyFEET/@-26.5003207,-49.0854501,17z/data=!3m1!4b1!4m6!3m5!1s0x94de959ddb6ded03:0x39d77f689cc7b01d!8m2!3d-26.5003207!4d-49.0854501!16s%2Fg%2F11xp27g7hg">Ver avaliações no Google</a>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+
+  <!-- CHAMADA FINAL -->
+  <section class="final-cta">
+    <div class="container final-row">
+      <div>
+        <h2>Seus pés merecem atenção profissional</h2>
+        <p>Agende sua avaliação. Respondemos pelo WhatsApp.</p>
+      </div>
+      <a class="btn btn-wa" href="https://wa.me/5547988604551?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20na%20HappyFEET." target="_blank" rel="noopener" data-origem="chamada-final">Agendar pelo WhatsApp</a>
+    </div>
+  </section>
+
+</main>
 
 <footer class="footer">
-  <div class="container">
-    © 2025 HappyFEET • Podologia — Jaraguá do Sul/SC
+  <div class="container footer-grid">
+    <div>
+      <p class="footer-brand">HappyFEET Podologia Clínica</p>
+      <p>R. 25 de Julho, nº 261, Vila Nova<br/>Jaraguá do Sul/SC, CEP 89259-000</p>
+    </div>
+    <div>
+      <p><a href="tel:+5547988604551">(47) 98860-4551</a></p>
+      <p><a href="https://www.instagram.com/clinica.happyfeet/" target="_blank" rel="noopener">Instagram @clinica.happyfeet</a></p>
+    </div>
+    <div>
+      <p>CNPJ 34.160.123/0001-01</p>
+      <p>© <span id="ano">2026</span> HappyFEET. Todos os direitos reservados.</p>
+    </div>
   </div>
 </footer>
+
+<a class="wa-float" href="https://wa.me/5547988604551?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20na%20HappyFEET." target="_blank" rel="noopener" data-origem="botao-flutuante" aria-label="Agendar pelo WhatsApp">
+  <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.7c-2 0-3.9-.5-5.6-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.7 10.7 0 1 1 16 26.7zm5.9-8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1-1.9-.9-3.2-1.8-4.4-3.9-.3-.6.3-.5 1-1.8.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.3 1.4 3.5c.2.2 2.4 3.7 5.8 5.1 2.2.9 3 1 4.1.8.7-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg>
+</a>
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "MedicalClinic",
-  "name": "HappyFEET • Podologia Clínica",
-  "image": "https://happyfeet-podologia.netlify.app/assets/logo-happyfeet.jpg",
+  "name": "HappyFEET Podologia Clínica",
+  "image": "https://happyfeet-podologia.netlify.app/assets/og-image.jpg",
+  "logo": "https://happyfeet-podologia.netlify.app/assets/logo-happyfeet.webp",
   "url": "https://happyfeet-podologia.netlify.app/",
   "telephone": "+55 47 98860-4551",
+  "taxID": "34.160.123/0001-01",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "R. 25 de Julho, nº 786 — Vila Nova",
+    "streetAddress": "R. 25 de Julho, 261, Vila Nova",
     "addressLocality": "Jaraguá do Sul",
     "addressRegion": "SC",
     "postalCode": "89259-000",
@@ -237,9 +331,11 @@
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": -26.4996115,
-    "longitude": -49.0807798
+    "latitude": -26.5003207,
+    "longitude": -49.0854501
   },
+  "hasMap": "https://www.google.com/maps/place/Cl%C3%ADnica+de+Podologia+HappyFEET/@-26.5003207,-49.0854501,17z/data=!3m1!4b1!4m6!3m5!1s0x94de959ddb6ded03:0x39d77f689cc7b01d!8m2!3d-26.5003207!4d-49.0854501!16s%2Fg%2F11xp27g7hg",
+  "sameAs": ["https://www.instagram.com/clinica.happyfeet/"],
   "openingHoursSpecification": [
     { "@type": "OpeningHoursSpecification",
       "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
@@ -248,6 +344,29 @@
       "dayOfWeek": "Saturday", "opens": "08:00", "closes": "12:00" }
   ]
 }
+</script>
+
+<script>
+  document.getElementById('ano').textContent = new Date().getFullYear();
+
+  var botaoCopiar = document.getElementById('copiar-endereco');
+  botaoCopiar.addEventListener('click', function () {
+    var endereco = 'R. 25 de Julho, nº 261, Vila Nova, Jaraguá do Sul/SC, CEP 89259-000';
+    if (!navigator.clipboard) return;
+    navigator.clipboard.writeText(endereco).then(function () {
+      botaoCopiar.textContent = 'Endereço copiado';
+      setTimeout(function () { botaoCopiar.textContent = 'Copiar endereço'; }, 2500);
+    });
+  });
+
+  // Registra cada clique no WhatsApp como conversão, quando a tag do Google estiver instalada.
+  document.querySelectorAll('a[href^="https://wa.me/"]').forEach(function (link) {
+    link.addEventListener('click', function () {
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', 'contato_whatsapp', { origem: link.dataset.origem || 'outro' });
+      }
+    });
+  });
 </script>
 
 </body>
