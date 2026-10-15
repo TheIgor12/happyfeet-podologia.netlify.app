@@ -7,6 +7,7 @@ Site estático da clínica, publicado na Netlify em https://happyfeet-podologia.
 | Arquivo | Função |
 |---|---|
 | `index.html` | Página principal |
+| `unha-encravada.html`, `fungo-na-unha.html`, `verruga-plantar.html`, `podoprofilaxia.html`, `atendimento-infantil.html`, `cuidados-para-idosos.html` | Páginas de cada tratamento (use como página de destino dos anúncios) |
 | `privacidade.html` | Política de Privacidade (LGPD) |
 | `404.html` | Página de erro |
 | `styles.css` | Estilos de todas as páginas |
