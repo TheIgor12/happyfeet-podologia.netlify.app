@@ -1,6 +1,6 @@
 # HappyFEET Podologia Clínica
 
-Site estático da clínica, publicado na Netlify em https://happyfeet-podologia.netlify.app/
+Site estático da clínica, publicado na Netlify em https://clinicahappyfeet.com.br/
 
 ## Estrutura
 
