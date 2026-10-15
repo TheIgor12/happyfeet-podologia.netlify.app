@@ -1,254 +1,517 @@
 <!doctype html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>HappyFEET • Podologia | Jaraguá do Sul</title>
-  <meta name="description" content="Precisão clínica com conforto e elegância. Unha encravada, podoprofilaxia, verruga plantar e laserterapia — em ambiente acolhedor, moderno e seguro."/>
-  <link href="styles.css" rel="stylesheet"/>
-  <link href="local.css" rel="stylesheet"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Podologia em Jaraguá do Sul | HappyFEET Podologia Clínica</title>
+  <meta name="description" content="Podologia clínica em Jaraguá do Sul/SC: unha encravada, fungo na unha com laserterapia, verruga plantar, podoprofilaxia e atendimento infantil e para idosos. Agende pelo WhatsApp.">
+  <link rel="canonical" href="https://happyfeet-podologia.netlify.app/">
+  <meta name="theme-color" content="#173f97">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="HappyFEET Podologia Clínica">
+  <meta property="og:title" content="HappyFEET Podologia Clínica | Jaraguá do Sul">
+  <meta property="og:description" content="Unha encravada, fungo na unha, verruga plantar, podoprofilaxia e laserterapia. Agende sua avaliação pelo WhatsApp.">
+  <meta property="og:url" content="https://happyfeet-podologia.netlify.app/">
+  <meta property="og:image" content="https://happyfeet-podologia.netlify.app/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preload" as="image" href="assets/tatiana-winheski-martinez.webp">
+  <link rel="stylesheet" href="styles.css">
+
+  <script>document.documentElement.classList.add("js")</script>
+  <script src="config.js"></script>
+  <script src="analytics.js"></script>
+  <script src="main.js" defer></script>
 </head>
 <body>
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
 
 <header class="header">
-  <div class="container row">
-    <a class="brand" href="#top" aria-label="HappyFEET Home">
-      <img src="assets/logo-happyfeet.jpg" alt="Logo HappyFEET"/>
-      <span>HappyFEET • Podologia</span>
+  <div class="container header-row">
+    <a class="brand" href="#top" aria-label="HappyFEET Podologia Clínica, início">
+      <img src="assets/logo-happyfeet.webp" alt="" width="40" height="40">
+      <span>HappyFEET <small>Podologia Clínica</small></span>
     </a>
-    <a class="btn primary" href="https://wa.me/554788604551?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20na%20HappyFEET." target="_blank" rel="noopener">WhatsApp</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="menu" class="nav" aria-label="Menu principal">
+      <a href="#servicos">Serviços</a>
+      <a href="#estrutura">Estrutura</a>
+      <a href="#avaliacoes">Avaliações</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#duvidas">Dúvidas</a>
+      <a href="#local">Onde estamos</a>
+      <a class="btn btn-light nav-cta" href="https://wa.me/554788604551" data-wa data-track="whatsapp_header" target="_blank" rel="noopener">Agendar</a>
+    </nav>
   </div>
 </header>
 
+<main id="conteudo">
+
 <section class="hero" id="top">
-  <div class="container grid-hero">
-    <div>
-      <p class="lead">Cuidado clínico para todas as idades</p>
-      <h1>Precisão clínica com conforto<br/>e elegância</h1>
-      <p class="lead">Unha encravada, podoprofilaxia, verruga plantar e laserterapia — em ambiente acolhedor, moderno e seguro.</p>
-      <div class="cta">
-        <a class="btn secondary" href="#servicos">Ver serviços</a>
-        <a class="btn primary" href="https://wa.me/554788604551?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20na%20HappyFEET." target="_blank" rel="noopener">Agendar avaliação</a>
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <p class="eyebrow">Podologia clínica em Jaraguá do Sul/SC</p>
+      <h1>Pés saudáveis, sem dor e com atendimento de confiança</h1>
+      <p class="lead">Tratamento de unha encravada, fungo na unha com laserterapia, verruga plantar e cuidados preventivos para crianças, adultos e idosos, em ambiente acolhedor e com biossegurança rigorosa.</p>
+      <div class="hero-cta">
+        <a class="btn btn-whats btn-lg" href="https://wa.me/554788604551" data-wa data-track="whatsapp_hero" target="_blank" rel="noopener">
+          <svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22"><use href="#i-whats"/></svg>
+          Agendar pelo WhatsApp
+        </a>
+        <a class="btn btn-outline-light btn-lg" href="#servicos">Ver tratamentos</a>
       </div>
+      <a class="hero-rating" href="#avaliacoes">
+        <span class="stars" aria-hidden="true">★★★★★</span>
+        <span><strong>5,0 no Google</strong> · 47 avaliações</span>
+      </a>
+      <ul class="hero-points">
+        <li>Atendimento individual e privativo</li>
+        <li>Materiais esterilizados</li>
+        <li>Seg a Sex 9h às 20h, Sáb 8h às 12h</li>
+      </ul>
     </div>
-    <div class="hero-card">
-      <img src="assets/hero-consultorio.svg" alt="Foto do consultório (Hero)"/>
+    <figure class="hero-photo">
+      <img src="assets/tatiana-winheski-martinez.webp" width="506" height="900" alt="Tatiana Winheski Martínez, fundadora da HappyFEET, no consultório da clínica">
+      <figcaption><strong>Tatiana Winheski Martínez</strong><span>Fundadora da HappyFEET</span></figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="trust" aria-label="Diferenciais">
+  <div class="container trust-grid">
+    <div class="trust-item">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><use href="#i-shield"/></svg>
+      <div><strong>Biossegurança</strong><span>Instrumentais esterilizados e descartáveis</span></div>
+    </div>
+    <div class="trust-item">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><use href="#i-heart"/></svg>
+      <div><strong>Atendimento humanizado</strong><span>Tempo e atenção para cada paciente</span></div>
+    </div>
+    <div class="trust-item">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><use href="#i-spark"/></svg>
+      <div><strong>Laserterapia</strong><span>Tecnologia no tratamento de fungos</span></div>
+    </div>
+    <div class="trust-item">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><use href="#i-family"/></svg>
+      <div><strong>Todas as idades</strong><span>Do bebê ao idoso</span></div>
     </div>
   </div>
 </section>
 
 <section class="section" id="servicos">
   <div class="container">
-    <h2>Serviços</h2>
-    <div class="cards">
+    <header class="section-head">
+      <p class="eyebrow eyebrow-dark">Tratamentos</p>
+      <h2>Como podemos cuidar dos seus pés</h2>
+      <p>As imagens mostram registros de evolução de tratamentos. Cada caso é avaliado individualmente e os resultados variam de pessoa para pessoa.</p>
+    </header>
 
-      <article class="card">
-        <div class="thumb" style="position:relative;aspect-ratio:auto;background:#eef4ff">
-          <div style="width:100%;padding-top:62.5%"></div>
-          <img src="assets/Podoprofilaxia.png" alt="Podoprofilaxia" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain">
-          <span class="badge">Podoprofilaxia</span>
-        </div>
-        <div class="body">
-          <h3>Podoprofilaxia</h3>
-          <p>Limpeza clínica, corte técnico e orientação preventiva.</p>
+    <div class="reveal cards">
+      <article class="card" id="unha-encravada">
+        <div class="thumb"><img src="assets/unha-encravada.webp" width="415" height="900" loading="lazy" alt="Sequência de quatro fotos mostrando a evolução do tratamento de uma unha encravada no dedão"></div>
+        <div class="card-body">
+          <p class="tag">Onicocriptose</p>
+          <h3>Unha encravada</h3>
+          <p>Remoção da espícula que machuca a pele, com técnica e assepsia, para aliviar a dor e a inflamação. Você também recebe orientação sobre corte correto e calçados, para evitar que o problema volte.</p>
+          <a class="card-link" href="https://wa.me/554788604551" data-wa="Olá! Gostaria de agendar uma avaliação para unha encravada." data-track="whatsapp_unha_encravada" target="_blank" rel="noopener">Agendar avaliação</a>
         </div>
       </article>
 
-      <article class="card">
-        <div class="thumb" style="position:relative;aspect-ratio:auto;background:#eef4ff">
-          <div style="width:100%;padding-top:62.5%"></div>
-          <img src="assets/Unha Encravada (Onicocriptose).png" alt="Unha Encravada (Onicocriptose)" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain">
-          <span class="badge">Unha Encravada</span>
-        </div>
-        <div class="body">
-          <h3>Onicocriptose</h3>
-          <p>Correção técnica, assepsia rigorosa e alívio seguro.</p>
+      <article class="card" id="fungo-na-unha">
+        <div class="thumb"><img src="assets/onicomicose-laser.webp" width="675" height="900" loading="lazy" alt="Quatro fotos mostrando a evolução de uma unha com fungo durante o tratamento com laserterapia"></div>
+        <div class="card-body">
+          <p class="tag">Onicomicose e laserterapia</p>
+          <h3>Fungo na unha</h3>
+          <p>Unha amarelada, grossa ou descolando pode ser micose. O tratamento combina limpeza técnica da unha, laserterapia e orientação de cuidados em casa, com acompanhamento por sessões.</p>
+          <a class="card-link" href="https://wa.me/554788604551" data-wa="Olá! Gostaria de agendar uma avaliação para fungo na unha (laserterapia)." data-track="whatsapp_onicomicose" target="_blank" rel="noopener">Agendar avaliação</a>
         </div>
       </article>
 
-      <article class="card">
-        <div class="thumb" style="position:relative;aspect-ratio:auto;background:#eef4ff">
-          <div style="width:100%;padding-top:62.5%"></div>
-          <img src="assets/Verruga Plantar.png" alt="Verruga Plantar" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain">
-          <span class="badge">Verruga Plantar</span>
-        </div>
-        <div class="body">
-          <h3>Verruga Plantar</h3>
-          <p>Procedimentos específicos e cuidados pós-tratamento.</p>
+      <article class="card" id="verruga-plantar">
+        <div class="thumb"><img src="assets/verruga-plantar.webp" width="675" height="900" loading="lazy" alt="Fotos mostrando a evolução do tratamento de uma verruga plantar na sola do pé"></div>
+        <div class="card-body">
+          <p class="tag">Verruga plantar</p>
+          <h3>Verruga na sola do pé</h3>
+          <p>Lesão causada por vírus que costuma doer ao pisar. Fazemos o tratamento por etapas, com procedimentos específicos e orientação de cuidados para evitar a transmissão.</p>
+          <a class="card-link" href="https://wa.me/554788604551" data-wa="Olá! Gostaria de agendar uma avaliação para verruga plantar." data-track="whatsapp_verruga" target="_blank" rel="noopener">Agendar avaliação</a>
         </div>
       </article>
 
-      <article class="card">
-        <div class="thumb" style="position:relative;aspect-ratio:auto;background:#eef4ff">
-          <div style="width:100%;padding-top:62.5%"></div>
-          <img src="assets/Laserterapia (Onicomicose).png" alt="Laserterapia (Onicomicose)" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain">
-          <span class="badge">Laserterapia</span>
-        </div>
-        <div class="body">
-          <h3>Onicomicose</h3>
-          <p>Tecnologia moderna e protocolo por fases.</p>
+      <article class="card" id="podoprofilaxia">
+        <div class="thumb"><img src="assets/podoprofilaxia.webp" width="675" height="900" loading="lazy" alt="Quatro fotos de pés antes e depois de uma sessão de podoprofilaxia"></div>
+        <div class="card-body">
+          <p class="tag">Podoprofilaxia</p>
+          <h3>Limpeza e prevenção</h3>
+          <p>Corte técnico das unhas, remoção de calos e calosidades, hidratação e avaliação geral dos pés. Ideal para manter a saúde dos pés e identificar problemas cedo.</p>
+          <a class="card-link" href="https://wa.me/554788604551" data-wa="Olá! Gostaria de agendar uma podoprofilaxia." data-track="whatsapp_podoprofilaxia" target="_blank" rel="noopener">Agendar avaliação</a>
         </div>
       </article>
 
-      <article class="card">
-        <div class="thumb" style="position:relative;aspect-ratio:auto;background:#eef4ff">
-          <div style="width:100%;padding-top:62.5%"></div>
-          <img src="assets/Pediatria.png" alt="Atendimento Infantil/Pediátrico" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain">
-          <span class="badge">Atendimento Infantil</span>
-        </div>
-        <div class="body">
-          <h3>Infantil/Pediátrico</h3>
-          <p>Abordagem lúdica e segura.</p>
+      <article class="card" id="infantil">
+        <div class="thumb"><img src="assets/atendimento-infantil.webp" width="675" height="900" loading="lazy" alt="Profissional da HappyFEET segurando um bebê sorridente no consultório"></div>
+        <div class="card-body">
+          <p class="tag">Podopediatria</p>
+          <h3>Atendimento infantil</h3>
+          <p>Abordagem calma e lúdica para bebês e crianças, com cuidado de unhas, orientação aos pais sobre corte correto e escolha de calçados.</p>
+          <a class="card-link" href="https://wa.me/554788604551" data-wa="Olá! Gostaria de agendar um atendimento infantil." data-track="whatsapp_infantil" target="_blank" rel="noopener">Agendar avaliação</a>
         </div>
       </article>
 
-      <article class="card">
-        <div class="thumb" style="position:relative;aspect-ratio:auto;background:#eef4ff">
-          <div style="width:100%;padding-top:62.5%"></div>
-          <img src="assets/Cuidados para Idosos.png" alt="Cuidados para Idosos" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain">
-          <span class="badge">Cuidados para Idosos</span>
-        </div>
-        <div class="body">
-          <h3>Rotinas de Conforto</h3>
-          <p>Atenção às particularidades de pele e sensibilidade.</p>
+      <article class="card" id="idosos">
+        <div class="thumb"><img src="assets/cuidados-idosos.webp" width="675" height="900" loading="lazy" alt="Quatro fotos dos pés de uma pessoa idosa mostrando a evolução do cuidado com unhas e pele"></div>
+        <div class="card-body">
+          <p class="tag">Podogeriatria</p>
+          <h3>Cuidados para idosos</h3>
+          <p>Atenção às particularidades da pele fina, unhas espessas e sensibilidade. Atendimento com calma e conforto, para manter a autonomia e prevenir lesões.</p>
+          <a class="card-link" href="https://wa.me/554788604551" data-wa="Olá! Gostaria de agendar um atendimento para idoso." data-track="whatsapp_idosos" target="_blank" rel="noopener">Agendar avaliação</a>
         </div>
       </article>
-
     </div>
   </div>
 </section>
 
-<section class="section alt space" id="espaco">
-  <div class="container">
-    <h2>Nosso espaço</h2>
-    <p>Ambiente acolhedor, moderno e higienizado.</p>
-    <div class="cards">
-
-      <article class="card">
-        <div class="thumb" style="position:relative;aspect-ratio:auto;background:#eef4ff">
-          <div style="width:100%;padding-top:62.5%"></div>
-          <img src="assets/Foto do espaço 1.png" alt="Foto do espaço 1" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain">
-        </div>
-      </article>
-
-      <article class="card">
-        <div class="thumb" style="position:relative;aspect-ratio:auto;background:#eef4ff">
-          <div style="width:100%;padding-top:62.5%"></div>
-          <img src="assets/tatiana-winheski-martinez.jpg" alt="Sra. Tatiana Winheski Martínez — Proprietária da HappyFEET" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain">
-        </div>
-      </article>
-
-      <article class="card">
-        <div class="thumb" style="position:relative;aspect-ratio:auto;background:#eef4ff">
-          <div style="width:100%;padding-top:62.5%"></div>
-          <img src="assets/hero-consultorio.svg" alt="Foto do espaço 3" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain">
-        </div>
-      </article>
-
+<section class="structure" id="estrutura">
+  <div class="container structure-grid">
+    <figure class="structure-photo reveal">
+      <img src="assets/recepcao.webp" width="720" height="1273" loading="lazy" alt="Recepção da HappyFEET com duas poltronas claras, mesa de apoio, balcão de atendimento e o logo da clínica na parede">
+      <figcaption>Nossa recepção</figcaption>
+    </figure>
+    <div class="structure-text reveal">
+      <p class="eyebrow">Estrutura</p>
+      <h2>Um espaço pensado para o seu conforto</h2>
+      <p>Da recepção à sala de atendimento, cada detalhe foi planejado para que você se sinta acolhido, seguro e à vontade.</p>
+      <ul class="feature-list">
+        <li><svg aria-hidden="true" viewBox="0 0 24 24"><use href="#i-snow"/></svg><div><strong>Ambiente climatizado</strong><span>Recepção e sala de atendimento com ar-condicionado</span></div></li>
+        <li><svg aria-hidden="true" viewBox="0 0 24 24"><use href="#i-access"/></svg><div><strong>Acessibilidade</strong><span>Espaço preparado para receber pessoas com deficiência e mobilidade reduzida</span></div></li>
+        <li><svg aria-hidden="true" viewBox="0 0 24 24"><use href="#i-car"/></svg><div><strong>Estacionamento</strong><span>Mais praticidade para chegar ao seu horário</span></div></li>
+        <li><svg aria-hidden="true" viewBox="0 0 24 24"><use href="#i-shield"/></svg><div><strong>Esterilização completa</strong><span>Instrumentais esterilizados a cada atendimento</span></div></li>
+        <li><svg aria-hidden="true" viewBox="0 0 24 24"><use href="#i-wifi"/></svg><div><strong>Wi-Fi para pacientes</strong><span>Fique conectado enquanto aguarda</span></div></li>
+        <li><svg aria-hidden="true" viewBox="0 0 24 24"><use href="#i-card"/></svg><div><strong>Pagamento facilitado</strong><span>Pix e cartão, com opção de parcelamento</span></div></li>
+      </ul>
     </div>
   </div>
 </section>
 
-<section class="about" id="sobre">
+<section class="section section-white" id="avaliacoes">
   <div class="container">
-    <h2>Sobre a HappyFEET</h2>
-    <p>Unimos técnica, conforto e transparência para cuidar da saúde dos seus pés. Atuamos com protocolos atualizados e orientação clara, para todas as idades.</p>
-    <ul>
-      <li>Atendimento humanizado e privativo</li>
-      <li>Higiene rigorosa e biossegurança</li>
-      <li>Tecnologia a favor do cuidado (laserterapia)</li>
-    </ul>
+    <header class="section-head center reveal">
+      <p class="eyebrow eyebrow-dark">Avaliações</p>
+      <h2>O que nossos pacientes dizem</h2>
+      <p>Avaliações reais publicadas no perfil da HappyFEET no Google.</p>
+      <a class="rating-badge" href="https://www.google.com/maps?cid=4167940067438342173" target="_blank" rel="noopener" data-track="selo_google">
+        <svg class="g-logo-lg" aria-hidden="true" viewBox="0 0 24 24"><use href="#i-google"/></svg>
+        <span class="rating-main"><strong>5,0</strong><span class="stars" aria-hidden="true">★★★★★</span></span>
+        <span class="rating-sub">Nota máxima com base em <strong>47 avaliações</strong> no Google</span>
+      </a>
+    </header>
+    <div class="carousel reveal">
+      <button class="carousel-btn prev" type="button" aria-label="Avaliação anterior">‹</button>
+      <ul class="reviews" tabindex="0" aria-label="Avaliações de pacientes">
+      <li class="review">
+        <div class="review-head">
+          <span class="avatar" style="--c:#173f97" aria-hidden="true">A</span>
+          <div><strong>Ary C.</strong><span>julho de 2026</span></div>
+          <svg class="g-logo" aria-label="Google" role="img" viewBox="0 0 24 24"><use href="#i-google"/></svg>
+        </div>
+        <p class="stars" aria-label="5 de 5 estrelas">★★★★★</p>
+        <blockquote><p>Excelente serviço.</p></blockquote>
+      </li>
+      <li class="review">
+        <div class="review-head">
+          <span class="avatar" style="--c:#128c4b" aria-hidden="true">M</span>
+          <div><strong>Mariza M.</strong><span>maio de 2026</span></div>
+          <svg class="g-logo" aria-label="Google" role="img" viewBox="0 0 24 24"><use href="#i-google"/></svg>
+        </div>
+        <p class="stars" aria-label="5 de 5 estrelas">★★★★★</p>
+        <blockquote><p>Maravilhosa atendimento VIP</p></blockquote>
+      </li>
+      <li class="review">
+        <div class="review-head">
+          <span class="avatar" style="--c:#7b3fb5" aria-hidden="true">J</span>
+          <div><strong>Jonas J.</strong><span>março de 2026</span></div>
+          <svg class="g-logo" aria-label="Google" role="img" viewBox="0 0 24 24"><use href="#i-google"/></svg>
+        </div>
+        <p class="stars" aria-label="5 de 5 estrelas">★★★★★</p>
+        <blockquote><p>Recomendo muito a clínica de podologia HappyFEET, um tratamento de alto nível, São carismático e atenciosos.</p></blockquote>
+      </li>
+      <li class="review">
+        <div class="review-head">
+          <span class="avatar" style="--c:#c2410c" aria-hidden="true">B</span>
+          <div><strong>Bruno K.</strong><span>março de 2026</span></div>
+          <svg class="g-logo" aria-label="Google" role="img" viewBox="0 0 24 24"><use href="#i-google"/></svg>
+        </div>
+        <p class="stars" aria-label="5 de 5 estrelas">★★★★★</p>
+        <blockquote><p>Excelente atendimento</p></blockquote>
+      </li>
+      <li class="review">
+        <div class="review-head">
+          <span class="avatar" style="--c:#0e7490" aria-hidden="true">L</span>
+          <div><strong>Lu R.</strong><span>março de 2026</span></div>
+          <svg class="g-logo" aria-label="Google" role="img" viewBox="0 0 24 24"><use href="#i-google"/></svg>
+        </div>
+        <p class="stars" aria-label="5 de 5 estrelas">★★★★★</p>
+        <blockquote><p>Atendimento excelente e de qualidade, ambiente agradável! Profissionais sempre se atualizando em suas áreas de atuação!!</p></blockquote>
+      </li>
+      </ul>
+      <button class="carousel-btn next" type="button" aria-label="Próxima avaliação">›</button>
+    </div>
+    <div class="reviews-cta">
+      <a class="btn btn-primary" target="_blank" rel="noopener" data-track="avaliacoes_google" href="https://www.google.com/maps?cid=4167940067438342173">Ver todas no Google</a>
+      <a class="btn btn-ghost" target="_blank" rel="noopener" data-track="avaliar_google" href="https://www.google.com/maps?cid=4167940067438342173">Já foi atendido? Deixe sua avaliação</a>
+    </div>
   </div>
 </section>
 
-<section class="contact" id="contato">
-  <div class="container contact-row">
+<section class="section" id="como-funciona">
+  <div class="container">
+    <header class="section-head">
+      <p class="eyebrow eyebrow-dark">Passo a passo</p>
+      <h2>Como funciona o atendimento</h2>
+    </header>
+    <ol class="reveal steps">
+      <li>
+        <span class="step-n">1</span>
+        <h3>Agendamento</h3>
+        <p>Você chama no WhatsApp, conta o que está sentindo e escolhe o melhor horário.</p>
+      </li>
+      <li>
+        <span class="step-n">2</span>
+        <h3>Avaliação</h3>
+        <p>Analisamos seus pés com calma, explicamos o que foi encontrado e quais são as opções de tratamento.</p>
+      </li>
+      <li>
+        <span class="step-n">3</span>
+        <h3>Tratamento</h3>
+        <p>O procedimento é feito com materiais esterilizados, técnica adequada e o máximo de conforto.</p>
+      </li>
+      <li>
+        <span class="step-n">4</span>
+        <h3>Acompanhamento</h3>
+        <p>Você recebe orientações de cuidados em casa e, quando necessário, retornos para acompanhar a evolução.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="section section-white" id="sobre">
+  <div class="container about-grid">
+    <div class="reveal about-media">
+      <img src="assets/laserterapia-atendimento.webp" width="415" height="900" loading="lazy" alt="Profissional da HappyFEET aplicando laserterapia nos pés de uma paciente">
+    </div>
+    <div class="about-text">
+      <p class="eyebrow eyebrow-dark">Sobre a clínica</p>
+      <h2>Cuidado técnico com atendimento acolhedor</h2>
+      <p>A HappyFEET nasceu para oferecer em Jaraguá do Sul uma podologia que une técnica, conforto e transparência. Cada paciente é atendido individualmente, com tempo para ouvir, examinar e explicar com clareza o que está acontecendo e como vamos tratar.</p>
+      <p>À frente da clínica está <strong>Tatiana Winheski Martínez</strong>, que conduz os atendimentos com protocolos atualizados e atenção especial a quem tem medo de sentir dor.</p>
+      <!-- Sugestão: incluir aqui a formação da Tatiana (curso técnico/superior em Podologia, especializações e tempo de atuação). -->
+      <ul class="check-list">
+        <li>Atendimento humanizado e privativo</li>
+        <li>Higiene rigorosa e biossegurança em todas as etapas</li>
+        <li>Tecnologia a favor do cuidado, como a laserterapia</li>
+        <li>Orientação clara para você cuidar dos pés em casa</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="duvidas">
+  <div class="container narrow">
+    <header class="section-head">
+      <p class="eyebrow eyebrow-dark">Perguntas frequentes</p>
+      <h2>Dúvidas comuns</h2>
+    </header>
+    <div class="reveal faq">
+      <details>
+        <summary>O tratamento de unha encravada dói?</summary>
+        <p>A técnica busca o máximo de conforto. Pode haver algum desconforto quando a região já está muito inflamada, mas a maioria dos pacientes sente alívio logo após o procedimento. Na avaliação explicamos cada etapa antes de começar.</p>
+      </details>
+      <details>
+        <summary>Quantas sessões de laser são necessárias para fungo na unha?</summary>
+        <p>Depende do grau de comprometimento da unha e de quantas unhas estão afetadas. O número de sessões é definido na avaliação. Como a unha cresce devagar, o resultado completo aparece ao longo de alguns meses.</p>
+      </details>
+      <details>
+        <summary>Preciso de encaminhamento médico?</summary>
+        <p>Não é necessário encaminhamento para agendar uma avaliação. Se identificarmos alguma situação que precise de acompanhamento médico, você será orientado a procurar o profissional adequado.</p>
+      </details>
+      <details>
+        <summary>Vocês atendem crianças e bebês?</summary>
+        <p>Sim. O atendimento infantil é feito com calma, de forma lúdica e sempre com a presença de um responsável.</p>
+      </details>
+      <details>
+        <summary>Pessoas com diabetes podem ser atendidas?</summary>
+        <p>Sim. Os pés de quem tem diabetes merecem atenção especial, e a avaliação podológica regular ajuda a prevenir lesões. Informe no agendamento para reservarmos o tempo adequado.</p>
+      </details>
+      <details>
+        <summary>Como faço para agendar?</summary>
+        <p>Pelo WhatsApp <a href="https://wa.me/554788604551" data-wa data-track="whatsapp_faq" target="_blank" rel="noopener">(47) 98860-4551</a>. Respondemos dentro do horário de atendimento.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band" id="contato">
+  <div class="container cta-row">
     <div>
-      <h2>Fale com a HappyFEET</h2>
-      <p>Tire dúvidas e agende sua avaliação pelo WhatsApp.</p>
+      <h2>Está com dor ou desconforto nos pés?</h2>
+      <p>Fale com a HappyFEET e agende sua avaliação. Quanto antes tratar, mais simples costuma ser o tratamento.</p>
     </div>
-    <a class="btn secondary" href="https://wa.me/554788604551?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20na%20HappyFEET." target="_blank" rel="noopener">WhatsApp</a>
+    <div class="cta-actions">
+      <a class="btn btn-whats btn-lg" href="https://wa.me/554788604551" data-wa data-track="whatsapp_cta" target="_blank" rel="noopener">
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22"><use href="#i-whats"/></svg>
+        Chamar no WhatsApp
+      </a>
+      <a class="btn btn-outline-light btn-lg" href="tel:+5547988604551" data-track="telefone_cta">Ligar (47) 98860-4551</a>
+    </div>
   </div>
 </section>
 
 <section class="section" id="local">
   <div class="container">
-    <h2>Onde estamos</h2>
+    <header class="section-head">
+      <p class="eyebrow eyebrow-dark">Localização</p>
+      <h2>Onde estamos</h2>
+    </header>
     <div class="local-grid">
       <div class="map-wrap">
-        <iframe
+        <iframe title="Mapa com a localização da HappyFEET Podologia Clínica"
           src="https://www.google.com/maps?q=R.+25+de+Julho%2C+786+-+Vila+Nova%2C+Jaragu%C3%A1+do+Sul+-+SC%2C+89259-000&output=embed"
-          style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
+          loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <div class="local-info">
-        <h3>HappyFEET • Podologia Clínica</h3>
-        <p class="address">R. 25 de Julho, nº 786 — Vila Nova<br>Jaraguá do Sul/SC — CEP 89259-000</p>
-        <div class="hours">
-          <h4>Horário de atendimento</h4>
-          <table>
-            <tr><td>Seg — Sex</td><td>09:00 às 20:00</td></tr>
-            <tr><td>Sábado</td><td>08:00 às 12:00</td></tr>
-            <tr><td>Domingo</td><td>Fechado</td></tr>
-          </table>
-        </div>
+        <h3>HappyFEET Podologia Clínica</h3>
+        <address>
+          R. 25 de Julho, nº 786, Vila Nova<br>
+          Jaraguá do Sul/SC, CEP 89259-000<br>
+          <a href="tel:+5547988604551" data-track="telefone_local">(47) 98860-4551</a>
+        </address>
+        <h4>Horário de atendimento</h4>
+        <table class="hours">
+          <caption class="sr-only">Horário de atendimento</caption>
+          <tbody>
+            <tr data-days="1,2,3,4,5"><th scope="row">Segunda a sexta</th><td>09:00 às 20:00</td></tr>
+            <tr data-days="6"><th scope="row">Sábado</th><td>08:00 às 12:00</td></tr>
+            <tr data-days="0"><th scope="row">Domingo</th><td>Fechado</td></tr>
+          </tbody>
+        </table>
         <div class="local-cta">
-          <a class="btn secondary" target="_blank" rel="noopener"
-             href="https://www.google.com/maps/dir//R.+25+de+Julho,+786+-+Vila+Nova,+Jaragu%C3%A1+do+Sul+-+SC,+89259-000/@-26.4995878,-49.1631813,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94de959ddb6ded03:0x39d77f689cc7b01d!2m2!1d-49.0807798!2d-26.4996115?hl=pt-BR&authuser=0&entry=ttu&g_ep=EgoyMDI1MDgwNi4wIKXMDSoASAFQAw%3D%3D">Como chegar</a>
-          <a class="btn primary" target="_blank" rel="noopener"
-             href="https://wa.me/554788604551?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20na%20HappyFEET.">WhatsApp</a>
-          <button class="btn" type="button"
-            onclick='navigator.clipboard.writeText("R. 25 de Julho, nº 786 — Vila Nova, Jaraguá do Sul/SC — CEP 89259-000")'>
-            Copiar endereço
-          </button>
+          <a class="btn btn-primary" target="_blank" rel="noopener" data-track="como_chegar"
+             href="https://www.google.com/maps/dir/?api=1&amp;destination=R.+25+de+Julho%2C+786+-+Vila+Nova%2C+Jaragu%C3%A1+do+Sul+-+SC%2C+89259-000">Como chegar</a>
+          <a class="btn btn-whats" href="https://wa.me/554788604551" data-wa data-track="whatsapp_local" target="_blank" rel="noopener">WhatsApp</a>
+          <button class="btn btn-ghost" type="button" data-copy="R. 25 de Julho, nº 786, Vila Nova, Jaraguá do Sul/SC, CEP 89259-000">Copiar endereço</button>
         </div>
-        <div class="local-badges">
-          <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=HappyFEET%20Podologia%20Cl%C3%ADnica%20Jaragu%C3%A1%20do%20Sul%20avalia%C3%A7%C3%B5es">
-            Ver avaliações no Google ⭐⭐⭐⭐⭐
-          </a>
-        </div>
+        <p class="copy-status" role="status" aria-live="polite"></p>
+        <a class="reviews-link" href="#avaliacoes">Ver avaliações dos pacientes</a>
       </div>
     </div>
   </div>
 </section>
 
+</main>
+
 <footer class="footer">
-  <div class="container">
-    © 2025 HappyFEET • Podologia — Jaraguá do Sul/SC
+  <div class="container footer-grid">
+    <div>
+      <p class="footer-brand">HappyFEET Podologia Clínica</p>
+      <p>R. 25 de Julho, nº 786, Vila Nova<br>Jaraguá do Sul/SC, CEP 89259-000</p>
+    </div>
+    <div>
+      <p class="footer-title">Contato</p>
+      <p><a href="https://wa.me/554788604551" data-wa data-track="whatsapp_footer" target="_blank" rel="noopener">WhatsApp</a><br>
+         <a href="tel:+5547988604551" data-track="telefone_footer">(47) 98860-4551</a></p>
+    </div>
+    <div>
+      <p class="footer-title">Informações</p>
+      <p><a href="privacidade.html">Política de Privacidade</a><br>
+         <button type="button" class="link-btn" data-open-consent hidden>Preferências de cookies</button></p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© <span data-year>2026</span> HappyFEET Podologia Clínica. As informações deste site não substituem uma avaliação presencial.</p>
   </div>
 </footer>
+
+<a class="whats-float" href="https://wa.me/554788604551" data-wa data-track="whatsapp_flutuante" target="_blank" rel="noopener" aria-label="Agendar pelo WhatsApp">
+  <svg aria-hidden="true" viewBox="0 0 24 24" width="30" height="30"><use href="#i-whats"/></svg>
+</a>
+
+<div class="consent" role="dialog" aria-live="polite" aria-label="Aviso de cookies" hidden>
+  <p>Usamos cookies para medir as visitas e melhorar nossos anúncios. Você pode aceitar ou recusar. <a href="privacidade.html">Saiba mais</a>.</p>
+  <div class="consent-actions">
+    <button type="button" class="btn btn-ghost" data-consent="denied">Recusar</button>
+    <button type="button" class="btn btn-primary" data-consent="granted">Aceitar</button>
+  </div>
+</div>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-whats" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91C21.95 6.45 17.5 2 12.04 2Zm0 18.15c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.23 8.23 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24 4.54 0 8.24 3.7 8.24 8.24 0 4.55-3.7 8.24-8.24 8.24Zm4.52-6.16c-.25-.12-1.47-.72-1.7-.81-.22-.08-.39-.12-.55.13-.17.24-.64.8-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.13-.55-1.34-.76-1.83-.2-.48-.4-.42-.55-.42h-.47c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.1-.23-.16-.48-.29Z"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 3 5 6v5c0 4.5 3 8.5 7 10 4-1.5 7-5.5 7-10V6l-7-3Z"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="m9 12 2 2 4-4"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10Z"/></symbol>
+  <symbol id="i-spark" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 3v4M12 17v4M3 12h4M17 12h4M5.6 5.6l2.8 2.8M15.6 15.6l2.8 2.8M5.6 18.4l2.8-2.8M15.6 8.4l2.8-2.8"/></symbol>
+  <symbol id="i-family" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="8" cy="6" r="2.5"/><circle cx="17" cy="9" r="2"/><path d="M3.5 20v-4a4.5 4.5 0 0 1 9 0v4M13.5 20v-3a3.5 3.5 0 0 1 7 0v3"/></g></symbol>
+  <symbol id="i-snow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M12 3v18M4.2 7.5l15.6 9M4.2 16.5l15.6-9M9.5 4.5 12 7l2.5-2.5M9.5 19.5 12 17l2.5 2.5"/></symbol>
+  <symbol id="i-access" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="4.5" r="1.8"/><path d="M12 7.5v6h5l2 5M12 10h4.5M9 11.2a5 5 0 1 0 6.6 6.6"/></g></symbol>
+  <symbol id="i-car" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 16V11l2-5h10l2 5v5M5 16h14M5 16v2.5M19 16v2.5M4 11h16"/><circle cx="8" cy="13.5" r=".6"/><circle cx="16" cy="13.5" r=".6"/></g></symbol>
+  <symbol id="i-wifi" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M2.5 9a14 14 0 0 1 19 0M5.5 12.5a9.5 9.5 0 0 1 13 0M8.6 16a5 5 0 0 1 6.8 0"/><circle cx="12" cy="19" r=".8" fill="currentColor"/></g></symbol>
+  <symbol id="i-card" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="5.5" width="18" height="13" rx="2.5"/><path d="M3 10h18M7 15h4"/></g></symbol>
+  <symbol id="i-google" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.5 12.3c0-.8-.1-1.5-.2-2.2H12v4.2h5.9a5 5 0 0 1-2.2 3.3v2.7h3.5c2.1-1.9 3.3-4.7 3.3-8Z"/><path fill="#34A853" d="M12 23c3 0 5.5-1 7.2-2.7l-3.5-2.7c-1 .7-2.2 1-3.7 1-2.9 0-5.3-1.9-6.2-4.5H2.2v2.8A11 11 0 0 0 12 23Z"/><path fill="#FBBC05" d="M5.8 14.1a6.6 6.6 0 0 1 0-4.2V7.1H2.2a11 11 0 0 0 0 9.8l3.6-2.8Z"/><path fill="#EA4335" d="M12 5.4c1.6 0 3.1.6 4.2 1.7l3.1-3.1A11 11 0 0 0 2.2 7.1l3.6 2.8C6.7 7.3 9.1 5.4 12 5.4Z"/></symbol>
+</svg>
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "MedicalClinic",
-  "name": "HappyFEET • Podologia Clínica",
-  "image": "https://happyfeet-podologia.netlify.app/assets/logo-happyfeet.jpg",
+  "@id": "https://happyfeet-podologia.netlify.app/#clinica",
+  "name": "Clínica de Podologia HappyFEET",
+  "alternateName": "HappyFEET Podologia Clínica",
+  "description": "Podologia clínica em Jaraguá do Sul/SC: unha encravada, onicomicose com laserterapia, verruga plantar, podoprofilaxia, atendimento infantil e para idosos.",
+  "image": [
+    "https://happyfeet-podologia.netlify.app/assets/og-image.jpg",
+    "https://happyfeet-podologia.netlify.app/assets/logo-happyfeet.jpg"
+  ],
+  "logo": "https://happyfeet-podologia.netlify.app/assets/logo-happyfeet.jpg",
   "url": "https://happyfeet-podologia.netlify.app/",
-  "telephone": "+55 47 98860-4551",
+  "telephone": "+55-47-98860-4551",
+  "hasMap": "https://www.google.com/maps?cid=4167940067438342173",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "R. 25 de Julho, nº 786 — Vila Nova",
+    "streetAddress": "R. 25 de Julho, 786",
     "addressLocality": "Jaraguá do Sul",
     "addressRegion": "SC",
     "postalCode": "89259-000",
     "addressCountry": "BR"
   },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": -26.4996115,
-    "longitude": -49.0807798
-  },
+  "geo": { "@type": "GeoCoordinates", "latitude": -26.4996115, "longitude": -49.0807798 },
+  "paymentAccepted": "Pix, cartão",
+  "amenityFeature": [
+    { "@type": "LocationFeatureSpecification", "name": "Ambiente climatizado", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Acessibilidade para pessoas com deficiência", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Estacionamento", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Wi-Fi para pacientes", "value": true }
+  ],
+  "areaServed": { "@type": "City", "name": "Jaraguá do Sul" },
+  "founder": { "@type": "Person", "name": "Tatiana Winheski Martínez" },
+  "availableService": [
+    { "@type": "MedicalProcedure", "name": "Tratamento de unha encravada (onicocriptose)" },
+    { "@type": "MedicalProcedure", "name": "Laserterapia para fungo na unha (onicomicose)" },
+    { "@type": "MedicalProcedure", "name": "Tratamento de verruga plantar" },
+    { "@type": "MedicalProcedure", "name": "Podoprofilaxia" },
+    { "@type": "MedicalProcedure", "name": "Atendimento podológico infantil" },
+    { "@type": "MedicalProcedure", "name": "Atendimento podológico para idosos" }
+  ],
   "openingHoursSpecification": [
-    { "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-      "opens": "09:00", "closes": "20:00" },
-    { "@type": "OpeningHoursSpecification",
-      "dayOfWeek": "Saturday", "opens": "08:00", "closes": "12:00" }
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "20:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "12:00" }
   ]
 }
 </script>
-
 </body>
 </html>
