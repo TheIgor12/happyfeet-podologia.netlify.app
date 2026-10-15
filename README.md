@@ -35,3 +35,7 @@ O número aparece em `main.js` (constante `WA`), nos `href` de `index.html` e `p
 ## Adicionar uma avaliação do Google
 
 Em `index.html`, na seção `id="avaliacoes"`, copie um bloco `<li class="review">...</li>` e troque o nome (primeiro nome e inicial do sobrenome), o mês/ano e o texto. Use sempre o texto exato publicado no Google.
+
+## Atualizar a nota e o total de avaliações
+
+A nota (5,0) e o total (47) aparecem em dois lugares de `index.html`: no selo do topo (`hero-rating`) e no selo da seção de avaliações (`rating-badge`). Atualize os dois quando o número mudar no Google.
