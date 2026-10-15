@@ -2,7 +2,7 @@ document.documentElement.classList.add("js");
 
 (function () {
   var WA = "https://wa.me/554788604551";
-  var DEFAULT_MSG = "Olá! Gostaria de agendar uma avaliação na HappyFEET.";
+  var DEFAULT_MSG = "Olá! Gostaria de agendar uma avaliação gratuita na HappyFEET.";
 
   // Links do WhatsApp com mensagem pronta (específica por serviço quando houver)
   document.querySelectorAll("[data-wa]").forEach(function (a) {
