@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://happyfeet-podologia.netlify.app/sitemap.xml
+Sitemap: https://clinicahappyfeet.com.br/sitemap.xml
