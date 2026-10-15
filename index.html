@@ -25,6 +25,7 @@
   <link rel="preload" as="image" href="assets/tatiana-winheski-martinez.webp">
   <link rel="stylesheet" href="styles.css">
 
+  <script>document.documentElement.classList.add("js")</script>
   <script src="config.js"></script>
   <script src="analytics.js"></script>
   <script src="main.js" defer></script>
@@ -43,7 +44,8 @@
     </button>
     <nav id="menu" class="nav" aria-label="Menu principal">
       <a href="#servicos">Serviços</a>
-      <a href="#como-funciona">Como funciona</a>
+      <a href="#estrutura">Estrutura</a>
+      <a href="#avaliacoes">Avaliações</a>
       <a href="#sobre">Sobre</a>
       <a href="#duvidas">Dúvidas</a>
       <a href="#local">Onde estamos</a>
@@ -109,7 +111,7 @@
       <p>As imagens mostram registros de evolução de tratamentos. Cada caso é avaliado individualmente e os resultados variam de pessoa para pessoa.</p>
     </header>
 
-    <div class="cards">
+    <div class="reveal cards">
       <article class="card" id="unha-encravada">
         <div class="thumb"><img src="assets/unha-encravada.webp" width="415" height="900" loading="lazy" alt="Sequência de quatro fotos mostrando a evolução do tratamento de uma unha encravada no dedão"></div>
         <div class="card-body">
@@ -173,13 +175,100 @@
   </div>
 </section>
 
-<section class="section section-white" id="como-funciona">
+<section class="structure" id="estrutura">
+  <div class="container structure-grid">
+    <figure class="structure-photo reveal">
+      <img src="assets/recepcao.webp" width="720" height="1273" loading="lazy" alt="Recepção da HappyFEET com duas poltronas claras, mesa de apoio, balcão de atendimento e o logo da clínica na parede">
+      <figcaption>Nossa recepção</figcaption>
+    </figure>
+    <div class="structure-text reveal">
+      <p class="eyebrow">Estrutura</p>
+      <h2>Um espaço pensado para o seu conforto</h2>
+      <p>Da recepção à sala de atendimento, cada detalhe foi planejado para que você se sinta acolhido, seguro e à vontade.</p>
+      <ul class="feature-list">
+        <li><svg aria-hidden="true" viewBox="0 0 24 24"><use href="#i-snow"/></svg><div><strong>Ambiente climatizado</strong><span>Recepção e sala de atendimento com ar-condicionado</span></div></li>
+        <li><svg aria-hidden="true" viewBox="0 0 24 24"><use href="#i-access"/></svg><div><strong>Acessibilidade</strong><span>Espaço preparado para receber pessoas com deficiência e mobilidade reduzida</span></div></li>
+        <li><svg aria-hidden="true" viewBox="0 0 24 24"><use href="#i-car"/></svg><div><strong>Estacionamento</strong><span>Mais praticidade para chegar ao seu horário</span></div></li>
+        <li><svg aria-hidden="true" viewBox="0 0 24 24"><use href="#i-shield"/></svg><div><strong>Esterilização completa</strong><span>Instrumentais esterilizados a cada atendimento</span></div></li>
+        <li><svg aria-hidden="true" viewBox="0 0 24 24"><use href="#i-wifi"/></svg><div><strong>Wi-Fi para pacientes</strong><span>Fique conectado enquanto aguarda</span></div></li>
+        <li><svg aria-hidden="true" viewBox="0 0 24 24"><use href="#i-card"/></svg><div><strong>Pagamento facilitado</strong><span>Pix e cartão, com opção de parcelamento</span></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section-white" id="avaliacoes">
+  <div class="container">
+    <header class="section-head center reveal">
+      <p class="eyebrow eyebrow-dark">Avaliações</p>
+      <h2>O que nossos pacientes dizem</h2>
+      <p>Avaliações reais publicadas no perfil da HappyFEET no Google.</p>
+    </header>
+    <div class="carousel reveal">
+      <button class="carousel-btn prev" type="button" aria-label="Avaliação anterior">‹</button>
+      <ul class="reviews" tabindex="0" aria-label="Avaliações de pacientes">
+      <li class="review">
+        <div class="review-head">
+          <span class="avatar" style="--c:#173f97" aria-hidden="true">A</span>
+          <div><strong>Ary C.</strong><span>julho de 2026</span></div>
+          <svg class="g-logo" aria-label="Google" role="img" viewBox="0 0 24 24"><use href="#i-google"/></svg>
+        </div>
+        <p class="stars" aria-label="5 de 5 estrelas">★★★★★</p>
+        <blockquote><p>Excelente serviço.</p></blockquote>
+      </li>
+      <li class="review">
+        <div class="review-head">
+          <span class="avatar" style="--c:#128c4b" aria-hidden="true">M</span>
+          <div><strong>Mariza M.</strong><span>maio de 2026</span></div>
+          <svg class="g-logo" aria-label="Google" role="img" viewBox="0 0 24 24"><use href="#i-google"/></svg>
+        </div>
+        <p class="stars" aria-label="5 de 5 estrelas">★★★★★</p>
+        <blockquote><p>Maravilhosa atendimento VIP</p></blockquote>
+      </li>
+      <li class="review">
+        <div class="review-head">
+          <span class="avatar" style="--c:#7b3fb5" aria-hidden="true">J</span>
+          <div><strong>Jonas J.</strong><span>março de 2026</span></div>
+          <svg class="g-logo" aria-label="Google" role="img" viewBox="0 0 24 24"><use href="#i-google"/></svg>
+        </div>
+        <p class="stars" aria-label="5 de 5 estrelas">★★★★★</p>
+        <blockquote><p>Recomendo muito a clínica de podologia HappyFEET, um tratamento de alto nível, São carismático e atenciosos.</p></blockquote>
+      </li>
+      <li class="review">
+        <div class="review-head">
+          <span class="avatar" style="--c:#c2410c" aria-hidden="true">B</span>
+          <div><strong>Bruno K.</strong><span>março de 2026</span></div>
+          <svg class="g-logo" aria-label="Google" role="img" viewBox="0 0 24 24"><use href="#i-google"/></svg>
+        </div>
+        <p class="stars" aria-label="5 de 5 estrelas">★★★★★</p>
+        <blockquote><p>Excelente atendimento</p></blockquote>
+      </li>
+      <li class="review">
+        <div class="review-head">
+          <span class="avatar" style="--c:#0e7490" aria-hidden="true">L</span>
+          <div><strong>Lu R.</strong><span>março de 2026</span></div>
+          <svg class="g-logo" aria-label="Google" role="img" viewBox="0 0 24 24"><use href="#i-google"/></svg>
+        </div>
+        <p class="stars" aria-label="5 de 5 estrelas">★★★★★</p>
+        <blockquote><p>Atendimento excelente e de qualidade, ambiente agradável! Profissionais sempre se atualizando em suas áreas de atuação!!</p></blockquote>
+      </li>
+      </ul>
+      <button class="carousel-btn next" type="button" aria-label="Próxima avaliação">›</button>
+    </div>
+    <div class="reviews-cta">
+      <a class="btn btn-primary" target="_blank" rel="noopener" data-track="avaliacoes_google" href="https://www.google.com/maps?cid=4167940067438342173">Ver todas no Google</a>
+      <a class="btn btn-ghost" target="_blank" rel="noopener" data-track="avaliar_google" href="https://www.google.com/maps?cid=4167940067438342173">Já foi atendido? Deixe sua avaliação</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="como-funciona">
   <div class="container">
     <header class="section-head">
       <p class="eyebrow eyebrow-dark">Passo a passo</p>
       <h2>Como funciona o atendimento</h2>
     </header>
-    <ol class="steps">
+    <ol class="reveal steps">
       <li>
         <span class="step-n">1</span>
         <h3>Agendamento</h3>
@@ -204,9 +293,9 @@
   </div>
 </section>
 
-<section class="section" id="sobre">
+<section class="section section-white" id="sobre">
   <div class="container about-grid">
-    <div class="about-media">
+    <div class="reveal about-media">
       <img src="assets/laserterapia-atendimento.webp" width="415" height="900" loading="lazy" alt="Profissional da HappyFEET aplicando laserterapia nos pés de uma paciente">
     </div>
     <div class="about-text">
@@ -225,13 +314,13 @@
   </div>
 </section>
 
-<section class="section section-white" id="duvidas">
+<section class="section" id="duvidas">
   <div class="container narrow">
     <header class="section-head">
       <p class="eyebrow eyebrow-dark">Perguntas frequentes</p>
       <h2>Dúvidas comuns</h2>
     </header>
-    <div class="faq">
+    <div class="reveal faq">
       <details>
         <summary>O tratamento de unha encravada dói?</summary>
         <p>A técnica busca o máximo de conforto. Pode haver algum desconforto quando a região já está muito inflamada, mas a maioria dos pacientes sente alívio logo após o procedimento. Na avaliação explicamos cada etapa antes de começar.</p>
@@ -311,8 +400,7 @@
           <button class="btn btn-ghost" type="button" data-copy="R. 25 de Julho, nº 786, Vila Nova, Jaraguá do Sul/SC, CEP 89259-000">Copiar endereço</button>
         </div>
         <p class="copy-status" role="status" aria-live="polite"></p>
-        <a class="reviews-link" target="_blank" rel="noopener" data-track="avaliacoes_google"
-           href="https://www.google.com/maps?cid=4167940067438342173">Ver avaliações dos pacientes no Google</a>
+        <a class="reviews-link" href="#avaliacoes">Ver avaliações dos pacientes</a>
       </div>
     </div>
   </div>
@@ -360,6 +448,12 @@
   <symbol id="i-heart" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10Z"/></symbol>
   <symbol id="i-spark" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 3v4M12 17v4M3 12h4M17 12h4M5.6 5.6l2.8 2.8M15.6 15.6l2.8 2.8M5.6 18.4l2.8-2.8M15.6 8.4l2.8-2.8"/></symbol>
   <symbol id="i-family" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="8" cy="6" r="2.5"/><circle cx="17" cy="9" r="2"/><path d="M3.5 20v-4a4.5 4.5 0 0 1 9 0v4M13.5 20v-3a3.5 3.5 0 0 1 7 0v3"/></g></symbol>
+  <symbol id="i-snow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M12 3v18M4.2 7.5l15.6 9M4.2 16.5l15.6-9M9.5 4.5 12 7l2.5-2.5M9.5 19.5 12 17l2.5 2.5"/></symbol>
+  <symbol id="i-access" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="4.5" r="1.8"/><path d="M12 7.5v6h5l2 5M12 10h4.5M9 11.2a5 5 0 1 0 6.6 6.6"/></g></symbol>
+  <symbol id="i-car" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 16V11l2-5h10l2 5v5M5 16h14M5 16v2.5M19 16v2.5M4 11h16"/><circle cx="8" cy="13.5" r=".6"/><circle cx="16" cy="13.5" r=".6"/></g></symbol>
+  <symbol id="i-wifi" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M2.5 9a14 14 0 0 1 19 0M5.5 12.5a9.5 9.5 0 0 1 13 0M8.6 16a5 5 0 0 1 6.8 0"/><circle cx="12" cy="19" r=".8" fill="currentColor"/></g></symbol>
+  <symbol id="i-card" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="5.5" width="18" height="13" rx="2.5"/><path d="M3 10h18M7 15h4"/></g></symbol>
+  <symbol id="i-google" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.5 12.3c0-.8-.1-1.5-.2-2.2H12v4.2h5.9a5 5 0 0 1-2.2 3.3v2.7h3.5c2.1-1.9 3.3-4.7 3.3-8Z"/><path fill="#34A853" d="M12 23c3 0 5.5-1 7.2-2.7l-3.5-2.7c-1 .7-2.2 1-3.7 1-2.9 0-5.3-1.9-6.2-4.5H2.2v2.8A11 11 0 0 0 12 23Z"/><path fill="#FBBC05" d="M5.8 14.1a6.6 6.6 0 0 1 0-4.2V7.1H2.2a11 11 0 0 0 0 9.8l3.6-2.8Z"/><path fill="#EA4335" d="M12 5.4c1.6 0 3.1.6 4.2 1.7l3.1-3.1A11 11 0 0 0 2.2 7.1l3.6 2.8C6.7 7.3 9.1 5.4 12 5.4Z"/></symbol>
 </svg>
 
 <script type="application/ld+json">
@@ -386,6 +480,13 @@
     "addressCountry": "BR"
   },
   "geo": { "@type": "GeoCoordinates", "latitude": -26.4996115, "longitude": -49.0807798 },
+  "paymentAccepted": "Pix, cartão",
+  "amenityFeature": [
+    { "@type": "LocationFeatureSpecification", "name": "Ambiente climatizado", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Acessibilidade para pessoas com deficiência", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Estacionamento", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Wi-Fi para pacientes", "value": true }
+  ],
   "areaServed": { "@type": "City", "name": "Jaraguá do Sul" },
   "founder": { "@type": "Person", "name": "Tatiana Winheski Martínez" },
   "availableService": [

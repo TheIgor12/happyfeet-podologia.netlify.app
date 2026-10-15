@@ -31,3 +31,7 @@ Site estático da clínica, publicado na Netlify em https://happyfeet-podologia.
 ## Alterar o número do WhatsApp
 
 O número aparece em `main.js` (constante `WA`), nos `href` de `index.html` e `privacidade.html` e no JSON-LD de `index.html`.
+
+## Adicionar uma avaliação do Google
+
+Em `index.html`, na seção `id="avaliacoes"`, copie um bloco `<li class="review">...</li>` e troque o nome (primeiro nome e inicial do sobrenome), o mês/ano e o texto. Use sempre o texto exato publicado no Google.
