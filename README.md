@@ -40,3 +40,7 @@ Em `index.html`, na seção `id="avaliacoes"`, copie um bloco `<li class="review
 ## Atualizar a nota e o total de avaliações
 
 A nota (5,0) e o total (47) aparecem em dois lugares de `index.html`: no selo do topo (`hero-rating`) e no selo da seção de avaliações (`rating-badge`). Atualize os dois quando o número mudar no Google.
+
+## Publicação
+
+O projeto na Netlify está ligado a este repositório. Todo merge no `main` é publicado automaticamente em https://clinicahappyfeet.com.br/ em cerca de 1 a 2 minutos. Não é mais necessário arrastar arquivos para a Netlify.
