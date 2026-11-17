@@ -11,6 +11,6 @@
 window.HF_CONFIG = {
   gtmId: "GTM-TZ5LLGSK",
   ga4Id: "",
-  adsId: "",
-  adsConversionLabel: ""
+  adsId: "AW-18581393899",
+  adsConversionLabel: "xkSWCNG5trodEOujppxF"
 };

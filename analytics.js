@@ -40,10 +40,12 @@
     g.async = true;
     g.src = "https://www.googletagmanager.com/gtm.js?id=" + encodeURIComponent(cfg.gtmId);
     document.head.appendChild(g);
+    gtag("js", new Date());
   }
 
-  // 3. IDs avulsos (GA4 "G-..." e Google Ads "AW-..."), se forem preenchidos
-  if (gtagIds.length) {
+  // 3. IDs avulsos (GA4 "G-..." e Google Ads "AW-..."), só quando não houver a tag GTM-...
+  //    (o Google pede uma única tag por página; com gtmId, o contêiner já cuida disso)
+  if (!cfg.gtmId && gtagIds.length) {
     var s = document.createElement("script");
     s.async = true;
     s.src = "https://www.googletagmanager.com/gtag/js?id=" + encodeURIComponent(gtagIds[0]);
@@ -65,7 +67,11 @@
       window.dataLayer.push({ event: isLead ? "contato_click" : "site_click", click_name: name });
       gtag("event", isLead ? "generate_lead" : "click", { event_label: name });
       if (isLead && cfg.adsId && cfg.adsConversionLabel) {
-        gtag("event", "conversion", { send_to: cfg.adsId + "/" + cfg.adsConversionLabel });
+        gtag("event", "conversion", {
+          send_to: cfg.adsId + "/" + cfg.adsConversionLabel,
+          value: 1.0,
+          currency: "BRL"
+        });
       }
     }
   };
