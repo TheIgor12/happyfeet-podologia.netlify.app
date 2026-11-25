@@ -10,7 +10,7 @@
  */
 window.HF_CONFIG = {
   gtmId: "GTM-TZ5LLGSK",
-  ga4Id: "",
+  ga4Id: "G-CR8M1BP67T",
   adsId: "AW-18581393899",
   adsConversionLabel: "xkSWCNG5trodEOujppxF"
 };
