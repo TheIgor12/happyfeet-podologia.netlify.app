@@ -13,3 +13,9 @@
   for = "/assets/*"
   [headers.values]
     Cache-Control = "public, max-age=2592000"
+
+[[redirects]]
+  from = "https://happyfeet-podologia.netlify.app/*"
+  to = "https://clinicahappyfeet.com.br/:splat"
+  status = 301
+  force = true
