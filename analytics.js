@@ -54,12 +54,28 @@
     gtagIds.forEach(function (id) { gtag("config", id); });
   }
 
+  // O contêiner existente carrega a tag do Google. O GA4 usa o mesmo dataLayer.
+  var ga4Started = false;
+  function updateAnalyticsConsent(value) {
+    if (!cfg.gtmId || !cfg.ga4Id) return;
+    window["ga-disable-" + cfg.ga4Id] = value !== "granted";
+    if (value !== "granted" || ga4Started) return;
+    ga4Started = true;
+    gtag("config", cfg.ga4Id, {
+      allow_google_signals: false,
+      allow_ad_personalization_signals: false,
+      allow_user_provided_data: false
+    });
+  }
+  updateAnalyticsConsent(read());
+
   window.HF = {
     enabled: Boolean(cfg.gtmId || gtagIds.length),
     consent: read,
     setConsent: function (v) {
       save(v);
       gtag("consent", "update", consentState(v));
+      updateAnalyticsConsent(v);
     },
     track: function (name, isLead) {
       if (!window.HF.enabled) return;
